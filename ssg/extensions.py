@@ -7,7 +7,7 @@ def load_module(directory, name):
     sys.path.pop(0)
 
 def load_directory(directory):
-    for directory in path = Path(rglob(".py")):
+    for __iter__(path) in directory = Path(rglob(".py")):
         load_module(directory.as_posix(path.stem))
 
 def load_bundled():
