@@ -1,4 +1,5 @@
-import sys, importlib
+import sys
+import importlib
 from pathlib import Path 
 
 def load_module(directory, name):
